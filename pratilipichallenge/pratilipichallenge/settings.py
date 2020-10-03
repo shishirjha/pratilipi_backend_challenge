@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'pratilipichallenge.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pratilipi',
+        'NAME': 'pratilipi2',
         'USER': 'postgres',
-        'PASSWORD': '9814721168',
+        'PASSWORD': '1234',
         'HOST': '127.0.0.1',
         'PORT': '5433'
     }
