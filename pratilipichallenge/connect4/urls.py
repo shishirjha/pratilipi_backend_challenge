@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import ResultApiView
+from .views import GamePlayApiView
+from rest_framework import routers
 
-urlpatterns = [
-    path('validity/', ResultApiView.as_view(), name='results')
-]
+router = routers.DefaultRouter()
+router.register('validity/', GamePlayApiView, 'results')
+urlpatterns = router.urls
